@@ -178,3 +178,4 @@ Davidd - For Davidd.tech Strategy
 	"bot_id": "#bot_id#", 
 	"deal_action": "Open"	
 }
+```
