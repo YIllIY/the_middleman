@@ -68,7 +68,7 @@ Davidd - For Davidd.tech Strategy
 	"exchange": "{{exchange}}",
 	"symbol": "{{ticker}}",
 	"close_position": "True",
-    "close_pos_pct": "#close_pct#", -- Optional / Only works in One Way Mode
+    	"close_pos_pct": "#close_pct#", -- Optional
 	"cancel_orders": "True"
 
 }
