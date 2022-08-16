@@ -186,3 +186,14 @@ Davidd - For Davidd.tech Strategy
 	"deal_action": "Close"	
 }
 ```
+--- 3commas Panic Convert Bot Deal
+```
+{
+	"key": "12345",
+	"exchange": "3commas"
+	"order_mode": "Bot",
+	"bot_id": "#bot_id#", 
+	"deal_action": "Convert"	
+}
+```
+
