@@ -1,0 +1,30 @@
+{
+     "KEY": 123456,
+     "EXCHANGES": {
+          "BYBIT": {
+                 "Main":{
+                      "API_KEY": "api-key",
+                      "API_SECRET": "api-secert",
+                      "TESTNET": false
+                 },
+                 "Test":{
+                      "API_KEY": "api-key",
+                      "API_SECRET": "api-secert",
+                      "TESTNET": true
+                 },
+                 "ENABLED":true
+            },
+            "3COMMAS": {
+                 "API_KEY": "api-key",
+                 "API_SECRET": "api-secert",
+                 "PAPER":"00000000",
+                 "ACC1": "00000000",
+                 "ACC2": "00000000",
+                 "ACC3": "00000000",
+                 "ACC4": "00000000",
+                 "ACC5": "00000000",
+                 "ENABLED": true
+            }
+     }
+  
+  }
