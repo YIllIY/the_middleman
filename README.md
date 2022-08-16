@@ -9,12 +9,12 @@ A tradingview webhook designed to be free & open source.  This bot is written us
 
 1.) Fork Project to your Own Github
 
-2.) [Create Free Heroku Account](https://www.heroku.com/)
-
-3.) Edit config.json to add your own api keys & add a custom key to protect the server.
+2.) Edit config.json to add your own api keys & add a custom key to protect the server.
 
 ```You need to creat new keys on Bybit & give them the correct acess to trade and see token balance```
-	
+
+3.) [Create Free Heroku Account](https://www.heroku.com/)
+
 4. Create New App.
 
 5. Connect your App to your Github
