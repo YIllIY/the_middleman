@@ -167,16 +167,15 @@ Davidd - For Davidd.tech Strategy
 }
 ```
 <br >
---- [https://YOUR_BOT_NAME.herokuapp.com/commas]
+--- [https://YOUR_BOT_NAME.herokuapp.com/commas] <br >
 <br >
 --- 3commas Start Bot Deal
 ```
 {
-	"key": "#token#",
+	"key": "12345",
 	"exchange": "3commas"
 	"order_mode": "Bot",
 	"bot_id": "#bot_id#", 
 	"deal_action": "Open"	
 }
 ```
-
