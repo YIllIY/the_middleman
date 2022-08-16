@@ -50,8 +50,7 @@ https://cli-assets.heroku.com/heroku-x64.exe
 
 After starting you server, you shoudl see an address that will allow you to access it like below:<br >
 
-[https://YOUR_BOT_NAME.herokuapp.com/byit]<br >
-[https://YOUR_BOT_NAME.herokuapp.com/commas]
+[https://YOUR_BOT_NAME.herokuapp.com/byit]
 
 _Now when your alerts fire off they should go strait to your server and get proccessed on the exchange almost instantly!_
 
@@ -167,3 +166,15 @@ Davidd - For Davidd.tech Strategy
     "sl_price": "#LongSL#"
 }
 ```
+<br >
+--- [https://YOUR_BOT_NAME.herokuapp.com/commas]
+<br >
+--- 3commas Start Bot Deal
+```
+{
+	"key": "#token#",
+	"exchange": "3commas"
+	"order_mode": "Bot",
+	"bot_id": "#bot_id#", 
+	"deal_action": "Open"	
+}
