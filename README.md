@@ -7,7 +7,7 @@ A tradingview webhook designed to be free & open source.  This bot is written us
 
 # How to Webhook Server on Heroku
 
-1.) Clone Project to Desktop
+1.) Fork Project to your Own Github
 
 2.) [Create Free Heroku Account](https://www.heroku.com/)
 
@@ -15,36 +15,11 @@ A tradingview webhook designed to be free & open source.  This bot is written us
 
 ```You need to creat new keys on Bybit & give them the correct acess to trade and see token balance```
 	
-4.) Open a terminal in the cloned directory:
+4. Create New App.
 
-5.) Install Heroku CLI so you can work connect you your webserver.
+5. Connect your App to your Github
 
-https://cli-assets.heroku.com/heroku-x64.exe
-
-
-6.) Submit the following lines into the terminal and press ENTER after each one to procces the code: 
- 
- 
-``git init``
-
-``heroku login``
-
-``heroku create --region eu tv-trader-yourservernamehere``
-
-``git add .``
-
-``git commit -m "Initial Commit"``
-
-``git push heroku master``
-
-
-***Anytime you need to make a change to the code or the API keys, you can push a new build to Heroku:***
-
-``git add .``
-
-``git commit -m "Update"``
-
-``git push heroku master``
+6. Deploy.
 
 # How to send alerts from TradingView to your new Webserver
 
