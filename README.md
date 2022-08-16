@@ -111,19 +111,6 @@ Davidd - For Davidd.tech Strategy
     "sl_price": "#sl_price#"
 } 
 ```
-```
-{
-    "key": "12345", - Coming Soon
-    "order_mode": "Genie",
-    "exchange": "#exchange#",
-    "symbol": "#symbol#",
-    "type": "Market",
-    "entry_side": "Buy",
-    "risk_pct": "5",
-    "leverage": "2",
-    "entry_price": "{{close}}"
-}
-```
 -- Long Entry Davidd.tech Strategy
 ```
 {
@@ -197,6 +184,42 @@ Davidd - For Davidd.tech Strategy
     "tp6_pos_pct": "#tp6_pos_pct#",
     "sl_price": "#sl_price#"
 } 
+```
+--- Genie Strategy - coming soon
+```
+{
+	"key": "12345",
+	"account": "Bybit",
+	"order_mode": "Genie",
+	"exchange": "#exchange#",
+	"symbol": "#symbol#",
+	"type": "Limit",
+	"entry_side": "Buy",
+	"risk_pct": "0",
+	"leverage": "#leverage#",
+	"entry_price": "#close#",
+	"long_price1": "#long_price1#",
+	"long_price2": "#long_price2#",
+	"long_price3": "#long_price3#",
+	"long_price4": "#long_price4#",
+	"long_price5": "#long_price5#",
+	"short_price1": "#short_price1#",
+	"short_price2": "#short_price2#",
+	"short_price3": "#short_price3#",
+	"short_price4": "#short_price4#",
+	"short_price5": "#short_price5#",
+	"long_pct1": "#long_pct1#",
+	"long_pct2": "#long_pct2#",
+	"long_pct3": "#long_pct3#",
+	"long_pct4": "#long_pct4#",
+	"long_pct5": "#long_pct5#",
+	"short_pct1": "#short_pct1#",
+	"short_pct2": "#short_pct2#",
+	"short_pct3": "#short_pct3#",
+	"short_pct4": "#short_pct4#",
+	"short_pct5": "#short_pct5#"
+}
+
 ```
 --- 3commas Start Bot Deal
 ```
