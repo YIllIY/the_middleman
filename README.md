@@ -66,8 +66,8 @@ Davidd - For Davidd.tech Strategy
 ```
 {
 	"key": "12345",
-	"exchange": "{{exchange}}",
-	"symbol": "{{ticker}}",
+	"exchange": "#exchange#",
+	"symbol": "#symbol#",
 	"close_position": "True",
     	"close_pos_pct": "#close_pct#", -- Optional
 	"cancel_orders": "True"
@@ -79,8 +79,8 @@ Davidd - For Davidd.tech Strategy
 {
     "key": "12345",
     "order_mode": "Lambo",
-    "exchange": "{{exchange}}",
-    "symbol": "{{ticker}}",
+    "exchange": "#exchange#",
+    "symbol": "#symbol#",
     "cancel_orders": "True",
     "type": "Market",
     "time_in_force": "GoodTillCancel", ## GoodTillCancel, ImmediateOrCancel, FillOrKill, PostOnly
@@ -102,10 +102,10 @@ Davidd - For Davidd.tech Strategy
 ```
 ```
 {
-    "key": "12345",
+    "key": "12345", - Coming Soon
     "order_mode": "Genie",
-    "exchange": "{{exchange}}",
-    "symbol": "{{ticker}}",
+    "exchange": "#exchange#",
+    "symbol": "#symbol#",
     "type": "Market",
     "entry_side": "Buy",
     "risk_pct": "5",
@@ -116,8 +116,8 @@ Davidd - For Davidd.tech Strategy
 ```
 {
 	"key": "12345",
-	"exchange": "{{exchange}}",
-	"symbol": "{{ticker}}",
+	"exchange": "#exchange#",
+	"symbol": "#symbol#",
 	"close_position": "True",
 	"cancel_orders": "True"
 
@@ -128,8 +128,8 @@ Davidd - For Davidd.tech Strategy
 {
     "key": "12345",
     "order_mode": "Davidd",
-    "exchange": "{{exchange}}",
-    "symbol": "{{ticker}}",
+    "exchange": "#exchange#",
+    "symbol": "#symbol#",
     "cancel_orders": "True",
     "type": "Market",
     "entry_side": "#side#",
@@ -150,8 +150,8 @@ Davidd - For Davidd.tech Strategy
 {
     "key": "12345",
     "order_mode": "Davidd",
-    "exchange": "{{exchange}}",
-    "symbol": "{{ticker}}",
+    "exchange": "#exchange#",
+    "symbol": "#symbol#",
     "cancel_orders": "True",
     "type": "Market",
     "entry_side": "#side#",
