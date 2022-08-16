@@ -50,7 +50,8 @@ https://cli-assets.heroku.com/heroku-x64.exe
 
 After starting you server, you shoudl see an address that will allow you to access it like below:<br >
 
-[https://YOUR_BOT_NAME.herokuapp.com/webhook](https://nrrd-bot.herokuapp.com/)
+[https://YOUR_BOT_NAME.herokuapp.com/byit]
+[https://YOUR_BOT_NAME.herokuapp.com/commas]
 
 _Now when your alerts fire off they should go strait to your server and get proccessed on the exchange almost instantly!_
 
