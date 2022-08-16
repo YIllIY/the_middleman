@@ -61,7 +61,7 @@ Davidd - For Davidd.tech Strategy
 
 # TradingView Alerts Format 
 
--- Exit Long / Short ANY Strategy
+-- Reduce Funds Long / Short ANY Strategy with % to leave a a little open (except 3commas)
 ```
 {
 	"key": "12345",
@@ -73,6 +73,18 @@ Davidd - For Davidd.tech Strategy
 
 }
 ```
+-- FULL Exit Long / Short ANY Strategy (except 3commas)
+```
+{
+	"key": "12345",
+	"exchange": "#exchange#",
+	"symbol": "#symbol#",
+	"close_position": "True",
+	"cancel_orders": "True"
+
+}
+```
+
 -- LamboModd Strategy
 ```
 {
@@ -110,16 +122,6 @@ Davidd - For Davidd.tech Strategy
     "risk_pct": "5",
     "leverage": "2",
     "entry_price": "{{close}}"
-}
-```
-```
-{
-	"key": "12345",
-	"exchange": "#exchange#",
-	"symbol": "#symbol#",
-	"close_position": "True",
-	"cancel_orders": "True"
-
 }
 ```
 -- Long Entry Davidd.tech Strategy
@@ -165,6 +167,36 @@ Davidd - For Davidd.tech Strategy
     "tp3_pos_pct": "100",
     "sl_price": "#LongSL#"
 }
+```
+--- Acrypto Strategy w/ LamboRambo Placeholders
+```
+{
+    "key": "12345",
+    "order_mode": "Acrypto",
+    "exchange": "#exchange#",
+    "symbol": "#symbol#",
+    "cancel_orders": "True",
+    "type": "Market",
+    "time_in_force": "GoodTillCancel",
+    "entry_side": "#entry_side#",
+    "exit_side": "#exit_side#",
+    "risk_pct": "#risk_pct#",
+    "leverage": "#leverage#",
+    "entry_price": "#close#", 
+    "tp1_price": "#tp1_price#",
+    "tp2_price": "#tp2_price#",
+    "tp3_price": "#tp3_price#",
+    "tp4_price": "#tp4_price#",
+    "tp5_price": "#tp5_price#",
+    "tp6_price": "#tp6_price#",
+    "tp1_pos_pct": "#tp1_pos_pct#",
+    "tp2_pos_pct": "#tp2_pos_pct#",
+    "tp3_pos_pct": "#tp3_pos_pct#",
+    "tp4_pos_pct": "#tp4_pos_pct#",
+    "tp5_pos_pct": "#tp5_pos_pct#",
+    "tp6_pos_pct": "#tp6_pos_pct#",
+    "sl_price": "#sl_price#"
+} 
 ```
 --- 3commas Start Bot Deal
 ```
