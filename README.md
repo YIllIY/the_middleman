@@ -155,7 +155,7 @@ Davidd - For Davidd.tech Strategy
     "sl_price": "#LongSL#"
 }
 ```
---- Acrypto Strategy w/ LamboRambo Placeholders
+--- Acrypto Strategy w/ v2.3 LamboRambo Placeholders
 ```
 {
     "key": "12345",
