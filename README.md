@@ -166,9 +166,6 @@ Davidd - For Davidd.tech Strategy
     "sl_price": "#LongSL#"
 }
 ```
-<br >
---- [https://YOUR_BOT_NAME.herokuapp.com/commas] <br >
-<br >
 --- 3commas Start Bot Deal
 ```
 {
@@ -177,5 +174,15 @@ Davidd - For Davidd.tech Strategy
 	"order_mode": "Bot",
 	"bot_id": "#bot_id#", 
 	"deal_action": "Open"	
+}
+```
+--- 3commas Panic Sell Bot Deal
+```
+{
+	"key": "12345",
+	"exchange": "3commas"
+	"order_mode": "Bot",
+	"bot_id": "#bot_id#", 
+	"deal_action": "Close"	
 }
 ```
