@@ -1,7 +1,7 @@
 
 This is a spin-off of the Crypto-Gnome Bot Modded to work for me and my Strategy on Tradingview. <br >(original bot here https://github.com/CryptoGnome/Tradingview-Webhook-Bot)
 
-This is a tradingview webhook  designed to be free & open source.  This bot is written using Python & Flask and is designed to run a free heroku server. It will allow you to create custom alerts in tradingview and send them to your own private webhook server that can place trades on your account via the api.
+A tradingview webhook designed to be free & open source.  This bot is written using Python & Flask and is designed to run a free heroku server or Docker. 
 
 #### Support can be requested in our Discord:
 
