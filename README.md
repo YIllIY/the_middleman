@@ -21,6 +21,26 @@ A tradingview webhook designed to be free & open source.  This bot is written us
 
 6. Deploy.
 
+--- Other Option is use docker  -- Dont ask me to suppor though... I am new to this too ... but I managed to figure it out from Vultr... and a new docker image.
+```
+sudo docker build --tag insane-bot .
+```
+```
+sudo docker run -d -p 80:5000 insane-bot
+```
+
+If needed
+```
+sudo docker container ls
+```
+
+```
+sudo docker stop <container-name>
+```
+```
+sudo docker container prune
+```
+
 # How to send alerts from TradingView to your new Webserver
 
 After starting you server, you shoudl see an address that will allow you to access it like below:<br >
